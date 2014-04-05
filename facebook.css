@@ -250,7 +250,7 @@
 
 
 
-#pagelet_ego_pane, div.topBorder, div.bottomBorder, ._5ciw
+#pagelet_ego_pane, .ego_column, div.topBorder, div.bottomBorder, ._5ciw
 {
  	visibility: hidden !important;
   	display: none !important;
@@ -373,7 +373,3 @@
 {
   	border-radius: 100px !important;
 }
-
-
-
-
