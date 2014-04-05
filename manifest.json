@@ -1,0 +1,14 @@
+{
+  "name": "Facebook Flat Design No Ads",
+  "description": "Facebook Flat Design No Ads",
+  "version": "0.1",
+  "permissions": [
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://*.facebook.com/*", "https://*.facebook.com/*"],
+      "css": ["facebook.css"]
+    }
+  ],
+  "manifest_version": 2
+}
