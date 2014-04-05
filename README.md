@@ -15,6 +15,7 @@ Install style from userstyles
     
     http://userstyles.org/styles/99968/facebook-flat-design-no-ads
 
+
 WHAT IT DOES
 ----------------
 
@@ -28,6 +29,19 @@ WHAT IT DOES
     No border
 
 * No ADs
+
+
+TO DO
+----------------
+* styling the images
+* styling the top nav
+* stlying left nav
+* extends feed width
+* stlying whole thing flat
+* chrome extension
+
+* refactoring
+* comments
     
     
 Developer
