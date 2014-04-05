@@ -365,7 +365,7 @@
 {
   	border: 0px !important;
 }
-._4lh ._519e:after, ._4lh ._51wa:after, ._4lh .timelineUnitContainer .UFIComment .UFIImageBlockImage:after, ._4lh .timelineUnitContainer .UFIReplyActorPhotoWrapper:after
+._4lh ._519e:after, ._4lh ._51wa:after, ._4lh .timelineUnitContainer .UFIComment .UFIImageBlockImage:after, ._4lh .timelineUnitContainer .UFIReplyActorPhotoWrapper:after, ._5bfg #pageNav._5bfj .tinyman .navLink:after, ._5bfg #pageNav._5bfj .tinyman .navLink:hover::after, ._50dw .profileLink:after
 {
   	background-image: none !important;
 }
