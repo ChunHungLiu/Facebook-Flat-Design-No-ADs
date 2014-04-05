@@ -89,13 +89,6 @@
 
 
 
-
-
-
-
-
-
-
 /* Round profile pictures */
 	/* Feed page round images */
 	._5pb8 .img, .ego_unit ._s0
@@ -257,7 +250,7 @@
 
 
 
-.rightColumnWrapper, #rightCol, div.topBorder, div.bottomBorder, ._5ciw
+#pagelet_ego_pane, div.topBorder, div.bottomBorder, ._5ciw
 {
  	visibility: hidden !important;
   	display: none !important;
@@ -360,7 +353,7 @@
 {
   	border-radius: 0px !important;
 }
-._5sem ._50c7, ._4lh ._50c7
+._5sem ._50c7, ._4lh ._50c7, ._rw, ._20h
 {
   	border-radius: 100px !important;
 }
@@ -380,7 +373,6 @@
 {
   	border-radius: 100px !important;
 }
-
 
 
 
