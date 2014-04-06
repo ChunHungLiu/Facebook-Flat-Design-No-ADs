@@ -373,3 +373,165 @@
 {
   	border-radius: 100px !important;
 }
+
+#pageNav._5bfj .tinyman .headerTinymanPhoto
+{
+  	margin-top: 2px !important;
+  	margin-right: -1px !important;
+  	width: 23px !important;
+  	height: 23px !important;
+}
+#pageNav._5bfj .litestandNavItem a.navLink, #pageNav._5bfj #navHome a, #pageNav._5bfj #navTimeline a, #pageNav._5bfj #navFindFriends a, #pageNav._5bfj #navPost a
+{
+  	text-shadow: none !important;
+}
+
+
+/* Chat Room Size & Style */
+.fbNubFlyout 
+{
+	height: 500px !important;
+}
+._50mz.opened 
+{
+  	width: 350px !important;
+}
+._5q5b .fbNubFlyoutTitlebar
+{
+  	background: #4172b0 !important;
+  	border: 1px solid #4172b0 !important;
+}
+
+/* Chat Room Profile */
+.fbChatConvItem .profileLink .profilePhoto 
+{
+	border-radius: 100px !important;
+}
+.fbChatConvItem .profileLink:after 
+{
+    background-image: none !important;
+}
+.fbChatMessageGroup .profileLink 
+{
+  	box-shadow: none !important;
+}
+.fbChatConvItem .profileLink:before 
+{
+    background: transparent;
+    display: block;
+    width: 32px;
+    height: 32px;
+    content: "";
+    position: absolute;
+    box-shadow: none;
+	border-radius: 100px !important;
+}
+
+/* Chat Text */
+.titlebar .titlebarText
+{
+  	text-shadow: none !important;
+  	font-weight: normal;
+}
+
+/* iOS7 Style */
+._kso  {
+    color: black; 
+    text-shadow: none;
+    font-size: 13px !important;
+    background-color: #ddeeff;
+    font-family: "Helvetica Neue", Arial;
+    background-image: none;
+}
+._kso a {
+	color: black;
+}
+
+._50kd ._kso, ._50kd ._kso:before {
+    background-color: #f0f0f5; 
+    background-image: none; 
+    color: black;
+    font-family: "Helvetica Neue", Arial;
+    font-size: 13px; 
+}
+._50kd ._kso, ._50kd ._kso  a {
+    color:black;
+}
+
+._kso {
+    border: none; 
+    border-bottom-color: none; 
+    border-radius: 7px; 
+    -webkit-border-radius: 7px; 
+    -webkit-box-shadow: none; 
+    margin: 5px 5px 5px 0;
+    min-height: 14px; 
+  	padding: 6px 9px 5px 8px;
+    position: relative;
+    text-shadow: none; 
+}
+
+._50kd ._kso {
+  	padding: 6px 9px 5px 8px;
+    margin-top: 9px;
+}
+._5w-6
+{
+  	font-weight: normal;
+}
+  
+  
+._50dw .profileLink:after {background-image:none;}
+      
+
+._50kd ._kso:before {
+left: auto;
+display: none;
+right: 100%;
+}
+
+
+._kso:before {
+background-color: none;
+
+background-image: none;
+}
+
+
+._kso:before, ._kso:after {
+background-image: none;
+background-repeat: no-repeat;
+background-size: auto;
+background-position: -218px -433px;
+height: 13px;
+  top: 5px; }
+
+._kso:before {
+background-color: none;
+
+background-image: none;
+}
+
+
+
+
+.fbDockChatTabFlyout .fbNubFlyoutBody
+{
+	background-color:white;
+}
+.fbChatConvItem:hover .metaInfoContainer 
+{
+	visibility: hidden;
+}
+._5w-6 
+{
+    background-color:white;
+}
+._50kd ._kso:after 
+{
+    background-image:none;
+}        
+._kso:before, ._kso:after 
+{
+	background-color:white
+}
