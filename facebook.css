@@ -212,6 +212,10 @@
 			0 0 0 1px rgba(0, 0, 0, 0.05);
 	}
 
+	.homeSideNav
+	{
+  		background-color: transparent !important;
+	}
 
 	.sideNavItem
 	{
@@ -390,7 +394,7 @@
 /* Chat Room Size & Style */
 .fbNubFlyout 
 {
-	height: 500px !important;
+	height: 420px !important;
 }
 ._50mz.opened 
 {
