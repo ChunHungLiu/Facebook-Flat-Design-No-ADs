@@ -9,11 +9,11 @@ HOW TO Install
 
 Install Stylish from chrome tools
 
-    https://chrome.google.com/webstore/detail/stylish/npikillpmgojgbdikjjeihibdlhncili
+https://chrome.google.com/webstore/detail/stylish/npikillpmgojgbdikjjeihibdlhncili
 
 Install style from userstyles
     
-    http://userstyles.org/styles/99968/facebook-flat-design-no-ads
+http://userstyles.org/styles/99968/facebook-flat-design-no-ads
 
 
 WHAT IT DOES
@@ -42,15 +42,6 @@ TO DO
 
 * refactoring
 * comments
-    
-    
-Developer
-----------------
-THE FINEST ARTIST
-
-Website : http://www.thefinestartist.com
-
-Email : contact@thefinestartist.com
 
 
 
