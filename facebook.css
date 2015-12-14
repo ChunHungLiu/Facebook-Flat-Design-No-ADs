@@ -1,426 +1,152 @@
-/* News feed stuff */
-.uiTypeahead .uiTextareaAutogrow, #composerCityTagger, ._1dsr, ._9lb, #pagelet_composer .uiSelectorButton /* "Post" screen transitions */
-{
-    transition:
-        0.2s
-            !important;
-}
-
-#pagelet_composer .uiToggle .uiSelectorButton /* In the news feed, there's the "who can see" button, this blocks the transition used above, avoiding graphic glitches */
-{
-    transition:
-        0s
-            !important;
-}
-
-#composerCityTagger:hover, ._1dsr:hover /* "Post" screen buttons effect on hover */
-{
-    box-shadow:
-        inset 0 0 1px #000;
-    
-    margin-top:
-        -2px !important;
-    
-    height:
-        45px
-            !important;
-}
-/* Here ends the news feed stuff */
-
-
-/* Right chatbar stuff */
-.tickerStoryClickable ._54ru
-{
-
-    border-radius:
-        100px;
-
-    transition:
-        0.3s;
+body,
+._2dpb,
+._3zm-:hover a,
+._3zm- a:focus,
+._3zm- a {
+    text-shadow: none !important;
 }
 
 
-.tickerStoryClickable:hover ._54ru
-{
-    border-radius:
-        100px;
+/* News feed */
+/* "Post" screen transitions */
+.uiTypeahead .uiTextareaAutogrow,
+#composerCityTagger,
+._1dsr,
+._9lb,
+#pagelet_composer .uiSelectorButton {
+    transition: 0.2s !important;
 }
 
-.tickerStoryClickable
-{
-    transition:
-        0.2s;
+/* In the news feed, there's the "who can see" button, this blocks the transition used above, avoiding graphic glitches */
+#pagelet_composer .uiToggle .uiSelectorButton {
+    transition: 0s !important;
 }
 
-.tickerStoryClickable:hover
-{
-    
-    background:
-        rgba(0, 0, 0, 0.04);
+/* "Post" screen buttons effect on hover */
+#composerCityTagger:hover,
+._1dsr:hover {
+    box-shadow: inset 0 0 1px #000;
+    margin-top: -2px !important;
+    height: 45px !important;
 }
 
-.uiScrollableAreaContent ._55ln, #sidebar_navigation_top ._4g5p, ._4gb_ /* This adds the extra spacing I need to add "borders" on each chat div */
-{
-    margin-top:
-        1px;
-    
-    padding-top:
-        2px
-            !important;
-    
-    padding-bottom:
-        2px
-            !important;
-    
-    transition:
-        0.2s;
+/* Right chatbar */
+.tickerStoryClickable ._54ru {
+    border-radius: 100px;
+    transition: 0.3s;
+}
+.tickerStoryClickable:hover ._54ru {
+    border-radius: 100px;
+}
+.tickerStoryClickable {
+    transition: 0.2s;
+}
+.tickerStoryClickable:hover {
+    background: rgba(0, 0, 0, 0.04);
 }
 
-._4vsz /* There's a background in the number counter, this applies transitions to it */
-{
-    transition:
-        0.2s;
+/* This adds the extra spacing I need to add "borders" on each chat div */
+.uiScrollableAreaContent ._55ln,
+#sidebar_navigation_top ._4g5p,
+._4gb_ {
+    margin-top: 1px;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    transition: 0.2s;
 }
 
-.uiScrollableAreaContent ._55ln:hover, #sidebar_navigation_top a:hover /* This, is the animation of the chat divs when hovered */
-{
-}
-/* Here ends the right chatbar stuff */
-
-
-
-/* Round profile pictures */
-	/* Feed page round images */
-	._5pb8 .img, .ego_unit ._s0
-	{
-		border-radius:
-			100px;
-		
-		transition:
-			0.3s;
-	}
-
-	._5v9u:after /* Removes a border around the profile picture in the news feed */
-	{
-		border:
-			none
-				!important;
-	}
-
-	._5pb8:hover .img, .ego_unit:hover ._s0 /* Effects on the profile pictures in the right action bar */
-	{
-		border-radius:
-			100px
-				!important;
-	}
-
-	.ego_unit /* Effects when hovering the right action bar */
-	{
-		border-radius:
-			4px;
-
-		width:
-			260px
-				!important;
-
-		padding:
-			5px
-				!important;
-
-		margin-left:
-			-8px
-				!important;
-	}
-
-	.ego_unit:hover
-	{
-
-		background: rgba(0, 0, 0, 0.1);
-	}
-	/* Feed round profile picture ends */
-
-	/* Chatbar round profile pictures */
-
-	._55lt .img, ._521h ._4-k7 .img
-	{
-		border-radius:
-			100px;
-
-		transition:
-			0.3s;
-	}
-
-	._5pr2 ._56p9:after /* Removes the border around the profile picture on the chatbar */
-	{
-		border:
-			none
-			!important;
-	}
-
-	._55ln:hover ._55lt .img /* Chatbar profile picture effects */
-	{
-		border-radius:
-			100px
-				!important;
-	}
-
-	#pagelet_canvas_nav_content, #apps_gripper /* Removes adds on the already small chatbar. */
-	{
-		display:
-			none
-				!important;
-	}
-
-/* Left bar stuff, still testing */
-
-	#pagelet_navigation /* The left bar has no background/borders. This adds them (looks better :D) */
-	{
-		background:
-			#FFF;
-
-		padding:
-			5px;
-
-		margin-top:
-			15px;
-
-		margin-left:
-			-15px;
-
-		border-radius:
-			3px;
-
-		box-shadow:
-			0 0 0 1px rgba(0, 0, 0, 0.05);
-	}
-
-	#pagelet_welcome_box /* Your name/profile picture on the left "bar" has no background, this adds them */
-	{
-		background:
-			#FFF;
-
-		margin-left:
-			-15px;
-
-		padding:
-			8px;
-
-		border-radius:
-			3px;
-
-		box-shadow:
-			0 0 0 1px rgba(0, 0, 0, 0.05);
-	}
-
-	.homeSideNav
-	{
-  		background-color: transparent !important;
-	}
-
-	.sideNavItem
-	{
-		margin-left:
-			0px
-				!important;
-		
-		transition:
-			0.3s;
-		
-		border:
-			1px solid rgba(0, 0, 0, 0);
-	}
-
-	.sideNavItem:hover /* Effects when hovering the elements on the left bar, applies to buttons on the left of the element */
-	{
-		background:
-			rgba(0, 0, 0, 0.05);
-
-		border-radius:
-			3px;
-
-		border:
-			1px solid rgba(0, 0, 0, 0.2);
-
-		transition:
-			0.2s;
-	}
-
-	.sideNavItem .item:hover /* Effects when hovering the elements on the left bar, applies to the elements itself */
-	{
-		background:
-			rgba(0, 0, 0, 0.025)
-				!important;
-	}
-
-
-
-#pagelet_ego_pane, .ego_column, div.topBorder, div.bottomBorder, ._5ciw
-{
- 	visibility: hidden !important;
-  	display: none !important;
+/* There's a background in the number counter, this applies transitions to it */
+._4vsz {
+    transition: 0.2s;
 }
 
-.hasSmurfbar #blueBarHolder #blueBar
-{
-    -webkit-box-shadow: none !important;
-    -moz-box-shadow: none !important;
-    box-shadow: none !important;
-    background-image: none !important;
-    border-bottom: 0px !important;
-    background-color: #4172b0 !important;
-}
-.hasSmurfbar #blueBarHolder #blueBar:after 
-{
-    background-image: none !important;
-}
-._585-
-{
-  	-webkit-border-radius: 0px !important;
-	-webkit-box-shadow: none !important;
-}
-#pageNav .tinyman .headerTinymanName
-{
-  	text-shadow: none !important;
-}
-._55bh:after
-{
-  	background: none !important;
-}
-#pageNav._5bfj .litestandNavItem:hover a, #pageNav._5bfj .litestandNavItem a:focus, #pageNav._5bfj #navHome:hover a, #pageNav._5bfj #navTimeline:hover a, #pageNav._5bfj #navFindFriends:hover a, #pageNav._5bfj #navPost:hover a, #pageNav._5bfj #navHome a:focus, #pageNav._5bfj #navTimeline a:focus, #pageNav._5bfj #navFindFriends a:focus, #pageNav._5bfj #navPost a:focus
-{
-  	background: none !important;
-}
-._4-u2, #pagelet_navigation, #pagelet_welcome_box, ._4lh .timelineReportContainer, ._4lh .fbTimelineCapsule .timelineUnitContainer, html ._6-d .fbTimelineSection, #fbProfileCover .coverBorder
-{
-  	border: none !important;
-  	border-radius: 0px !important;
-	box-shadow: none !important;
-}
-._5v9k .UFIAddComment .UFIImageBlockImage:after, ._5v9k .UFIComment .UFIImageBlockImage:after, .litestandClassicWelcomeBox .fbxWelcomeBoxBlock:after, ._5v3q ._4-eo::after
-{
-  	border: none !important;
-}
-._8o, ._8o .img
-{
-  	border-radius: 100px !important;
-}
-._rv, ._50c7
-{
-	border-radius: 100px !important;
-}
-._7lt ._7lw
-{
-	border-radius: 100px !important;
-	border: 0px !important;
-  	background-color: transparent !important;
-}
-._7lt ._7ls
-{
-	border-radius: 100px !important;
-	border: 0px !important;
-  	background-color: transparent !important;
-}
-._5v3q ._4-eo
-{
-	border: none !important;
-    -webkit-box-shadow: none !important;
-    -moz-box-shadow: none !important;
-    box-shadow: none !important;
-}
-._54ru
-{
-  	border-radius: 100px !important;
-}
-#fbTimelineHeadline .profilePicThumb
-{
-  	background: transparent !important;
-}
-#fbTimelineHeadline .profilePic
-{
-  	background: transparent !important;
-  	border-radius: 100px !important;
-	border: none !important;
-}
-._8_2, ._6-f .alternate_name
-{
-  	text-shadow: none !important;
-}
-._6-d #fbProfileCover .coverNoImage::after
-{
-  	border: 0px !important;
-}
-.fbTimelineCapsule .timelineUnitContainer
-{
-  	border: 0px !important;
-}
-._4lh .likeUnit .fbTimelineBoxCount, ._4lh .likeUnit .likeUnitImageContainer, ._4lh .fbTimelineSection .fbTimelineFriendsBoxLarge .fbTimelineBoxCount, ._4lh .fbTimelineSection .fbTimelineFriendsBoxLarge .friendPhoto, ._4lh .fbTimelineTwoColumn .photoUnit .photoWidth3 .photoWrap, ._4lh .fbTimelineTwoColumn .photoUnit .photoWidth3Edge .photoWrap
-{
-  	border-radius: 0px !important;
-}
-._5sem ._50c7, ._4lh ._50c7, ._rw, ._20h
-{
-  	border-radius: 100px !important;
-}
-._4lh ._519e:after, ._4lh ._51wa:after
-{
-  	background-image: none !important;
-}
-._5d3_::after, ._gx8::after
-{
-  	border: 0px !important;
-}
-._4lh ._519e:after, ._4lh ._51wa:after, ._4lh .timelineUnitContainer .UFIComment .UFIImageBlockImage:after, ._4lh .timelineUnitContainer .UFIReplyActorPhotoWrapper:after, ._5bfg #pageNav._5bfj .tinyman .navLink:after, ._5bfg #pageNav._5bfj .tinyman .navLink:hover::after, ._50dw .profileLink:after
-{
-  	background-image: none !important;
-}
-._50dw .profileLink .profilePhoto
-{
-  	border-radius: 100px !important;
+/* Feed page round images */
+._5pb8 .img,
+.ego_unit ._s0 {
+    transition: 0.3s;
 }
 
-#pageNav._5bfj .tinyman .headerTinymanPhoto
-{
-  	margin-top: 2px !important;
-  	margin-right: -1px !important;
-  	width: 23px !important;
-  	height: 23px !important;
-}
-#pageNav._5bfj .litestandNavItem a.navLink, #pageNav._5bfj #navHome a, #pageNav._5bfj #navTimeline a, #pageNav._5bfj #navFindFriends a, #pageNav._5bfj #navPost a
-{
-  	text-shadow: none !important;
+/* Removes a border around the profile picture in the news feed */
+._5v9u:after {
+    border: none !important;
 }
 
+/* Effects when hovering the right action bar */
+.ego_unit {
+    width: 260px !important;
+    padding: 5px !important;
+    margin-left: -8px !important;
+}
+.ego_unit:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* Chatbar round profile pictures */
+._55lt .img,
+._521h ._4-k7 .img {
+    transition: 0.3s;
+}
+
+/* Removes the border around the profile picture on the chatbar */
+._5pr2 ._56p9:after {
+    border: none !important;
+}
+
+/* Removes adds on the already small chatbar. */
+#pagelet_canvas_nav_content,
+#apps_gripper {
+    display: none !important;
+}
+
+/* post commnet */
+.UFIRow.UFIFirstComponent,
+.timelineUnitContainer,
+.fbTimelineFeedbackActions {
+    border-top: none !important;
+}
+
+/* post message */
+.uiTypeahead {
+    border: none !important;
+}
+.uiTypeahead .wrap {
+    border: none !important;
+}
+
+/* Chat Side Bar */
+.fbChatSidebar {
+    border-left: none !important;
+}
+.fbSidebarGripper {
+    background-color: #fff;
+}
+.fbChatSidebarBody {
+    background-color: #fff;
+}
+._51mx {
+    background-color: #fff;
+}
 
 /* Chat Room Size & Style */
-.fbNubFlyout 
-{
-	height: 420px !important;
+.fbNubFlyout {
+    height: 420px !important;
 }
-._50mz.opened 
-{
-  	width: 350px !important;
+._50mz.opened {
+    width: 350px !important;
 }
-._5q5b .fbNubFlyoutTitlebar
-{
-  	background: #4172b0 !important;
-  	border: 1px solid #4172b0 !important;
+._5q5b .fbNubFlyoutTitlebar {
+    background: #4172b0 !important;
+    border: 1px solid #4172b0 !important;
 }
 
 /* Chat Room Profile */
-.fbChatConvItem .profileLink .profilePhoto 
-{
-	border-radius: 100px !important;
-}
-.fbChatConvItem .profileLink:after 
-{
+.fbChatConvItem .profileLink:after {
     background-image: none !important;
 }
-.fbChatMessageGroup .profileLink 
-{
-  	box-shadow: none !important;
+.fbChatMessageGroup .profileLink {
+    box-shadow: none !important;
 }
-.fbChatConvItem .profileLink:before 
-{
+.fbChatConvItem .profileLink:before {
     background: transparent;
     display: block;
     width: 32px;
@@ -428,114 +154,132 @@
     content: "";
     position: absolute;
     box-shadow: none;
-	border-radius: 100px !important;
 }
 
 /* Chat Text */
-.titlebar .titlebarText
-{
-  	text-shadow: none !important;
-  	font-weight: normal;
+.titlebar .titlebarText {
+    text-shadow: none !important;
+    font-weight: normal;
 }
 
 /* iOS7 Style */
-._kso  {
-    color: black; 
-    text-shadow: none;
+._1nc6 ._5w1r {
+    color: black;
     font-size: 13px !important;
     background-color: #ddeeff;
     font-family: "Helvetica Neue", Arial;
+    text-shadow: none !important;
     background-image: none;
+    border: none;
+    -webkit-box-shadow: none;
+    margin: 0px 0px 0px 0px;
+    min-height: 14px;
+    padding: 6px 9px 5px 8px;
+    position: relative;
+    font-weight: 100;
+}
+._1nc6 ._5w1r:after,
+._1nc6 ._5w1r:before,
+._5w1r:after,
+._5w1r:before {
+    visibility: hidden;
 }
 ._kso a {
-	color: black;
+    color: black;
 }
-
-._50kd ._kso, ._50kd ._kso:before {
-    background-color: #f0f0f5; 
-    background-image: none; 
+._50kd ._kso,
+._50kd ._kso:before {
+    background-color: #f0f0f5;
+    background-image: none;
     color: black;
     font-family: "Helvetica Neue", Arial;
-    font-size: 13px; 
+    font-size: 13px;
 }
-._50kd ._kso, ._50kd ._kso  a {
-    color:black;
+._50kd ._kso,
+._50kd ._kso a {
+    color: black;
 }
-
-._kso {
-    border: none; 
-    border-bottom-color: none; 
-    border-radius: 7px; 
-    -webkit-border-radius: 7px; 
-    -webkit-box-shadow: none; 
-    margin: 5px 5px 5px 0;
-    min-height: 14px; 
-  	padding: 6px 9px 5px 8px;
+._1nc7 ._5w1r {
+    background-color: #f0f0f5;
+    border: none;
+    -webkit-box-shadow: none;
+    margin: 2px 0px 7px 5px;
+    min-height: 14px;
+    padding: 6px 9px 5px 8px;
     position: relative;
-    text-shadow: none; 
+    text-shadow: none;
+    background-image: none !important;
 }
-
 ._50kd ._kso {
-  	padding: 6px 9px 5px 8px;
+    padding: 6px 9px 5px 8px;
     margin-top: 9px;
 }
-._5w-6
-{
-  	font-weight: normal;
+._5w-6 {
+    font-weight: normal;
 }
-  
-  
-._50dw .profileLink:after {background-image:none;}
-      
-
+._50dw .profileLink:after {
+    background-image: none;
+}
 ._50kd ._kso:before {
-left: auto;
-display: none;
-right: 100%;
+    left: auto;
+    display: none;
+    right: 100%;
 }
-
-
 ._kso:before {
-background-color: none;
-
-background-image: none;
+    background-image: none;
 }
-
-
-._kso:before, ._kso:after {
-background-image: none;
-background-repeat: no-repeat;
-background-size: auto;
-background-position: -218px -433px;
-height: 13px;
-  top: 5px; }
-
+._kso:before,
+._kso:after {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -218px -433px;
+    height: 13px;
+    top: 5px;
+}
 ._kso:before {
-background-color: none;
-
-background-image: none;
+    background-image: none;
 }
-
-
-
-
-.fbDockChatTabFlyout .fbNubFlyoutBody
-{
-	background-color:white;
+.fbDockChatTabFlyout .fbNubFlyoutBody {
+    background-color: white;
 }
-.fbChatConvItem:hover .metaInfoContainer 
-{
-	visibility: hidden;
+.fbChatConvItem:hover .metaInfoContainer {
+    visibility: hidden;
 }
-._5w-6 
-{
-    background-color:white;
+._5w-6 {
+    background-color: white !important;
 }
-._50kd ._kso:after 
-{
-    background-image:none;
-}        
-._kso:before, ._kso:after 
-{
-	background-color:white
+._50kd ._kso:after,
+._5w-6 {
+    background-image: none;
+}
+._kso:before,
+._kso:after {
+    background-color: white
+}
+.conversation {
+    background-image: none;
+    color: black;
+    font-family: "Helvetica Neue", Arial;
+    font-size: 13px;
+}
+._1nc7 ._5ys_ {
+    left: 2px;
+}
+._5ys_ img {
+    width: 32px;
+    height: 32px;
+}
+._5ys_:after,
+._1nc7 ._5w1r:after {
+    background-image: none !important;
+}
+._38vo:after {
+    border: none !important;
+}
+._4tdt ._31o4 {
+    padding-bottom: 9px;
+}
+#u_0_0 {
+    display: none;
 }
